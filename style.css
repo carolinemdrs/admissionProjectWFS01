@@ -70,3 +70,23 @@ body {
 	height: 350px
 }
 
+input[type=text] {
+	-webkit-font-size :30px;
+ width:40%;
+ height:50px;
+ margin-top: 150px;
+}
+
+.formulario_{
+	text-align: center;
+	
+}
+
+button {
+	width: 10%;
+	height: 54px;
+	background-color: #cc4c00;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
