@@ -10,7 +10,7 @@
 	<section class="inicio">
 		<h1 id="titulo">Projeto Seletivo Future4</h1>
 		<img src="Future4.jpg" alt="logo do projeto" id="img">
-		<p id="turma"> <i> Turma Web Full Stack 01 </i> </p>
+		<p id="turma"> Turma Web Full Stack 01  </p>
 		
 	</section>
 
@@ -25,10 +25,15 @@
 	<section class="formulario">
 		<form class="formulario_">
 			<input type="text" name="email" placeholder="Coloque aqui o seu email">
-			<button type="submit"> Enviar </button>
+			<button type="submit" onclick="botao()"> Enviar </button>
+		
 		
 	</section>
 
-
+<script type="text/javascript"> 
+function botao () {
+	alert("O email foi enviado!");
+}
+</script>
 </body>
 </html>
