@@ -24,16 +24,23 @@
 
 	<section class="formulario">
 		<form class="formulario_">
-			<input type="text" name="email" placeholder="Coloque aqui o seu email">
+			<input type="text" name="email" id="emails" placeholder="Coloque aqui o seu email" value="">
 			<button type="submit" onclick="botao()"> Enviar </button>
 		
 		
 	</section>
 
 <script type="text/javascript"> 
+
+
 function botao () {
-	alert("O email foi enviado!");
+
+	var alerta = document.getElementById('emails').value;
+
+alert ('Seu email' + alerta + 'foi enviado');
+
 }
+
 </script>
 </body>
 </html>
