@@ -15,17 +15,26 @@
 	</section>
 
 	<section class="materias">
-		<div class="materias_fullstack">
+			<div class="materias_fullstack">
 		  <p class="conteudo"> <b> HTML </b> </p>
+		  </div>
+		  <div class="materias_fullstack">
 		  <p class="conteudo"> <b> CSS </b>  </p>
+		  </div>
+		  <div class="materias_fullstack">
 		  <p class="conteudo"> <b> Javascript </b> </p>
 		</div>
+		
 	</section>
 
 	<section class="formulario">
 		<form class="formulario_">
+		<div class="formulario1">
 			<input type="text" name="email" id="emails" placeholder="Coloque aqui o seu email" value="">
+		</div>
+		<div class="formulario2">
 			<button type="submit" onclick="botao()"> Enviar </button>
+		</div>
 		
 		
 	</section>
@@ -37,7 +46,7 @@ function botao () {
 
 	var alerta = document.getElementById('emails').value;
 
-alert ('Seu email ' + alerta + ' foi enviado');
+alert ('Seu email ' + alerta + '\ foi enviado');
 
 }
 
