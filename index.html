@@ -4,6 +4,7 @@
 <head>
 	<title>Projeto Future4</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
 
 </head>
 <body>
@@ -44,12 +45,18 @@
 function validarEmail () {
 		var formulario = eval("document.forms[0].email");
 		var txt = formulario.value;
-	
-		if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') )))
+		var bemV = document.getElementById('emails').value;
 
-		alert  ("Por favor, preencha o email corretamente");
+		if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') < 5))) {
+
+		alert  ("Email inválido"); }
+
+		else {
+			alert  (" Bem vindo(a) !" + bemV);
+		}
 		
-	
+
+		
 	}
 
 </script>
