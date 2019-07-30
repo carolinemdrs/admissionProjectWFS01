@@ -47,12 +47,12 @@ function validarEmail () {
 		var txt = formulario.value;
 		var bemV = document.getElementById('emails').value;
 
-		if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') < 5))) {
+		if (txt == "" || txt.indexOf("@") == -1 || txt.indexOf(".") == -1) {
 
 		alert  ("Email inválido"); }
 
 		else {
-			alert  (" Bem vindo(a) !" + bemV);
+			alert  (" Bem vindo(a) " + bemV + " !");
 		}
 		
 
