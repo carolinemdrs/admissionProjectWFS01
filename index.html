@@ -28,27 +28,29 @@
 	</section>
 
 	<section class="formulario">
-		<form class="formulario_">
+		<form class="formulario_" name="formulario_">
 		<div class="formulario1">
-			<input type="text" name="email" id="emails" placeholder="Coloque aqui o seu email" value="">
+			<input type="text" name="email" id="emails" placeholder="Coloque aqui o seu email">
 		</div>
 		<div class="formulario2">
-			<button type="submit" onclick="botao()"> Enviar </button>
+			<button type="submit" onclick="validarEmail ()"> Enviar </button>
 		</div>
 		
 		
 	</section>
 
-<script type="text/javascript"> 
+<script language="javascript"> 
 
+function validarEmail () {
+		var formulario = eval("document.forms[0].email");
+		var txt = formulario.value;
+	
+		if ((txt.length != 0) && ((txt.indexOf("@") < 1) || (txt.indexOf('.') )))
 
-function botao () {
-
-	var alerta = document.getElementById('emails').value;
-
-alert ('Seu email ' + alerta + '\ foi enviado');
-
-}
+		alert  ("Por favor, preencha o email corretamente");
+		
+	
+	}
 
 </script>
 </body>
