@@ -10,12 +10,18 @@ body {
 /* --------------------------------- SEÇÃO INICIO ---------------------------------*/
 
 .inicio {
+	width: 1348.5px;
+
+}
+
+.secao_inicio {
+
 	background-color: #595e96;
 	height: 700px;
 	color:white;
 	background-size: cover;
-	margin-top: 0px;
-	
+	margin-top: 0%;
+	width: 100%;
 }
 
 #titulo {
@@ -50,6 +56,7 @@ body {
 	background-color: #cc4c00;
 	height: 350px;
 	text-align: center;
+	width: 1348.5px;
 }
 
 
@@ -83,6 +90,12 @@ background-color: #FFFFFF;
 .formulario {
 	background-color: #d7d7d7;
 	height: 350px
+	width: 1348.5px;
+}
+
+.formulario_ {
+	width: 100%;
+	height: 300px;
 }
 
 input[type=text] {
