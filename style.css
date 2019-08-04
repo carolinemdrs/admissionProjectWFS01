@@ -1,8 +1,11 @@
+* {
+ margin: 0;
+ padding: 0;
+}
 
 body {
 	font-family: verdana;
-	 margin: 0px;
-	background-color: #595e96;
+
 	
 
 
@@ -10,7 +13,7 @@ body {
 /* --------------------------------- SEÇÃO INICIO ---------------------------------*/
 
 .inicio {
-	width: 1348.5px;
+	width: 100%;
 
 }
 
@@ -42,11 +45,11 @@ body {
 }
 
 #img {
-	width: 500px;
-	height: 250px;
+	width: 40%;
+	height: 35%;
 	display: block;
-	margin-left: 450px;
-	margin-top:-150px;
+	margin-left: 30%;
+	margin-top:-9%;
 
 
 }
@@ -56,7 +59,7 @@ body {
 	background-color: #cc4c00;
 	height: 350px;
 	text-align: center;
-	width: 1348.5px;
+	width: 100%;
 }
 
 
@@ -66,23 +69,23 @@ body {
 background-color: #FFFFFF;
 	color: #cc4c00;
 	width: 25%;
-	height: 200px;
+	height: 60%;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 160%;
 
-    margin-top: 50px;
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-top: 30px;
-	padding-right: 10px;
-	padding-left: 10px;
+    margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-top: 2%;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
 
 }
 
 .conteudo {
 	vertical-align: middle;
-	height: 100px;
-	line-height: 100px;
+	height: 620%;
+	line-height:620%;
 }
 
 /* --------------------------------- SEÇÃO FORMULARIO ---------------------------------*/
@@ -91,6 +94,7 @@ background-color: #FFFFFF;
 	background-color: #d7d7d7;
 	height: 350px
 	width: 1348.5px;
+
 }
 
 .formulario_ {
